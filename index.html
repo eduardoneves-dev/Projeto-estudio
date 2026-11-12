@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Neves | Nail Designer</title>
+  <meta name="description" content="Estúdio de nail design: #.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+  <header class="nav">
+        <div class="container nav-inner">
+          <a href="#home" class="logo">Ana Neves<span>nail designer</span></a>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#quem-somos">Quem somos</a></li>
+              <li><a href="#equipe">Equipe</a></li>
+              <li><a href="#localizacao">Localização</a></li>
+              <li><a href="#agendar" class="btn-outline">Agendar horário</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="hero">
+          <div class="container hero-grid">
+            <div>
+              <p class="eyebrow">Nail design autoral</p>
+              <h1>Unhas que contam a sua história.</h1>
+              <p class="lead">Alongamento, nail art e cuidados com acabamento impecável em um ambiente acolhedor.</p>
+              <a href="#agendar" class="btn-solid">Agendar horário</a>
+            </div>
+            <img src="img/Unhas-two.jpeg" alt="Mãos com unhas decoradas em tons nude e rosé" width="1280" height="960">
+          </div>
+        </section>
+
+        <section id="quem-somos" class="section alt">
+          <div class="container narrow">
+            <p class="eyebrow">Quem somos</p>
+            <h2>Cuidado, técnica e delicadeza</h2>
+            <p>Nascemos em 2018 com o propósito de transformar o cuidado com as unhas em um momento de pausa e autoestima. Utilizamos materiais de alta qualidade, protocolos rigorosos de higiene e técnicas atualizadas para entregar resultados duradouros e únicos.</p>
+            <div class="stats">
+              <div><strong>2+</strong><span>anos de estúdio</span></div>
+              <div><strong>+100</strong><span>clientes atendidas</span></div>
+              <div><strong>100%</strong><span>material esterilizado</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="equipe" class="section">
+          <div class="container">
+            <p class="eyebrow center">Equipe</p>
+            <h2 class="center">Mãos que fazem arte</h2>
+            <div class="team">
+                            <article class="card">
+                <div class="avatar">AN</div>
+                <h3>Ana Clara Neves</h3>
+                <p>Fundadora &amp; Nail Designer</p>
+              </article>
+              <article class="card">
+                <div class="avatar">AZ</div>
+                <h3>Ariadna Zaraza</h3>
+                <p>lorem</p>
+              </article>
+              
+            </div>
+          </div>
+        </section>
+
+        <section id="localizacao" class="section alt">
+          <div class="container loc">
+            <div>
+              <p class="eyebrow">Localização</p>
+              <h2>Venha nos visitar</h2>
+              <address>Rua 262, 156 — St. Leste Universitário<br>Goiânia, GO</address>
+              <p>Ter a Sex: 8h às 20h<br>Sábado: 8h às 21h</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.994837395332!2d-49.236752425427795!3d-16.67714178409378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef13c5996f57b%3A0x31aaffa68f10775f!2sAna%20Neves%20%7C%20Nail%20Designer!5e0!3m2!1sen!2sus!4v1794508757706!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+        </section>
+
+        <section id="agendar" class="section">
+          <div class="container narrow">
+            <p class="eyebrow center">Agendar horário</p>
+            <h2 class="center">Reserve seu momento</h2>
+            <form class="form" onsubmit="event.preventDefault(); alert('Pedido enviado! Entraremos em contato.');">
+              <input required placeholder="Seu nome">
+              <input required type="tel" placeholder="WhatsApp">
+              <select required >
+                <option value="" disabled selected>Serviço</option>
+                <option>Manicure</option><option>Alongamento em gel</option><option>Nail art</option><option>Spa dos pés</option>
+              </select>
+              <input required type="date">
+              <button type="submit" class="btn-solid">Solicitar agendamento</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">© 2026 Ana Neves | Nail Designer</footer>
+</body>
+</html>
