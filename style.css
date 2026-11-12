@@ -273,8 +273,8 @@ h2 {
     }
 
     .navlogo {
-        width: clamp(96px, 28vw, 132px);
-        max-height: 40px;
+        width: clamp(70px, 20vw, 96px);
+        max-height: 28px;
         margin-bottom: .35rem;
     }
 
